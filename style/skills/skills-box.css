@@ -13,18 +13,15 @@
 @media screen and (max-width: 768px) {
     .skills__box{
         height: 118px;
-        width: 20%;
-        margin: 0 2rem 0 0;
+        width: calc((100% / 3) - 2.675rem);
+        margin-right: 1rem;
         margin-bottom: 2rem;
     }
 
     .skills__box:nth-child(3n){
-        margin: 0;
+        margin-right: 0;
     }
 
-    .skills__box:last-child{
-        margin: 0;
-    }
 }
 
 @media screen and (max-width: 360px) {

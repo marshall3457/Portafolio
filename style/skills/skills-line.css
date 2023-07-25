@@ -5,17 +5,10 @@
 
 @media screen and (max-width: 768px) {
     .skills__line{
-        justify-content: space-around;
         flex-wrap: wrap;
     }
 }
 
-
-@media screen and (max-width: 360px) {
-    .skills__line{
-        justify-content: space-between;
-    }
-}
 
 
 
