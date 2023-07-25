@@ -6,7 +6,7 @@
 @media screen and (max-width: 768px) {
     .title__container{
 
-        width: calc(80% - 2rem);
+        width: calc(68% - 2rem);
         margin-right: 2rem;
     }
 }
