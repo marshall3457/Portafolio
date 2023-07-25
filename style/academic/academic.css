@@ -1,0 +1,15 @@
+.academic{
+    padding: 5.125rem 10.55%;
+    background-color: var(--color-de-fondo-azul-cielo);
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .academic{
+
+        padding: 2rem;
+    }
+}
+
+

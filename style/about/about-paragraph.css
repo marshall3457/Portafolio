@@ -1,0 +1,12 @@
+.about__paragraph{
+    color: var(--color-de-letra);
+    margin-bottom: 1rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    .about__paragraph{
+
+        font-size: 0.875rem;
+    }
+}

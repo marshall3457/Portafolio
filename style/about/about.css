@@ -1,0 +1,23 @@
+.about{
+    display: flex;
+    background-color: var(--color-de-fondo-azul-cielo);
+    padding: 0% 10.55%;
+    margin: 2rem 0;
+
+}
+
+@media screen and (max-width: 768px) {
+    .about{
+
+        padding: 0 2rem;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+    .about{
+
+        padding: 1rem;
+        margin: 0;
+    }
+}

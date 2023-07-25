@@ -1,0 +1,86 @@
+.academic__courses{
+    display: flex;
+    justify-content: space-around;
+}
+.academic__courses__box{
+    width: 40%;
+}
+.academic__courses__item__img{
+    display: flex;
+    height: calc((100vw - (100vw * 0.07)) * 0.2); 
+    background-color: var(--color-blanco-de-skills-hobbies);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.academic__courses__list{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-logoUniversidad{
+    width: 100px;
+}
+
+.academic__courses__item__title{
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: var(--color-de-letra);
+    margin-bottom: 0.5rem;
+}
+
+.academic__courses__item__subtitle{
+    font-size: 1rem;
+    color: var(--color-de-letra);
+}
+
+
+@media screen and (max-width: 768px) {
+    .img-logoAlura{
+        width: 192px;
+        height: 130px;
+    }
+    .img-logoUniversidad{
+        height: 130px;
+    }
+
+    .academic__courses__item__title{
+        font-size: 1rem;
+
+    }
+
+    .academic__courses__item__subtitle{
+        font-size: 0.875rem;
+    }
+    
+    .academic__courses__item__img{
+        height: 118px;
+        padding: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+    .academic__courses{
+        flex-direction: column;
+    }
+
+    .academic__courses__box{
+        width: 100%;
+    }
+
+    .academic__courses__box:last-child{
+        margin-top: 1rem;
+    }
+
+    .img-logoAlura{
+        width: 70px;
+        height: 48px;
+
+    }
+    .img-logoUniversidad{
+        width: 84px;
+        height: 91px;
+    }
+}

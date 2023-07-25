@@ -1,0 +1,14 @@
+.formcontato__title{
+    margin-bottom: 0.75rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--color-de-letra);
+}
+
+@media screen and (max-width: 768px) {
+    .formcontato__title{
+
+        font-size: 1.375rem;
+        margin-bottom: 0.5rem;
+    }
+}

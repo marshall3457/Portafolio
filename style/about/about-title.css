@@ -1,0 +1,14 @@
+.about__title{
+    font-size: 2rem;
+    color: var(--color-de-letra);
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    .about__title{
+
+        font-size: 1.375rem;
+    }
+}

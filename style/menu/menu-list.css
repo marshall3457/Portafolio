@@ -1,0 +1,35 @@
+.menu__list{
+    display: flex;
+    
+}
+
+.menu__list__item{
+
+    color: var(--color-de-letra);
+    margin-left: 1rem;
+}
+
+
+.menu__list__item--contacto{
+    color: var(--color-de-letra);
+    font-weight: bold;
+    margin-left: 2rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    .menu__list__item{
+
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+    .menu__list__item--contacto{
+        font-size: 0.875rem;
+        font-weight: unset;
+        margin-left: 0;
+
+    }
+}

@@ -1,0 +1,21 @@
+.title__network{
+    display: flex;
+    padding: 0;
+}
+
+.title__network__item{
+    color: var(--color-de-letra);
+    margin-right: 2rem;
+}
+
+
+@media screen and (max-width: 360px) {
+    .title__network__item{
+        margin-right: 0.5rem;
+        font-size: 0.875rem;
+        font-weight: bold;
+    }
+
+
+
+}

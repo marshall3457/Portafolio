@@ -1,0 +1,13 @@
+.formcontato__text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    .formcontato__text{
+        margin-left: 0;
+        flex: 1;
+    }
+}

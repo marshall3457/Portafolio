@@ -1,0 +1,5 @@
+.menu__title{
+    margin-left: 0.5rem;
+    color: var(--color-de-letra);
+    font-weight: bold;
+}

@@ -1,0 +1,13 @@
+.experiencia__botao--repo{
+    font-size: 1rem;
+    color: var(--color-boton-azul);
+    border: 1px solid var(--color-boton-azul);
+    padding: 1rem;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .experiencia__botao--repo{
+        padding: 0.75rem 1rem;
+    }
+}

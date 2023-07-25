@@ -1,0 +1,14 @@
+.academic__title{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem ;
+    color: var(--color-de-letra);
+}
+
+@media screen and (max-width: 768px) {
+    .academic__title{
+        font-size: 1.375rem;
+        margin-bottom: 2rem;
+    }
+}

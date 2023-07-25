@@ -1,0 +1,23 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 10.55%;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .menu{
+
+        padding: 0 2rem;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+    .menu{
+        padding: 0 1rem;
+        margin: 1rem 0;
+        align-items: center;
+    }
+}

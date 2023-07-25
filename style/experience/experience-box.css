@@ -1,0 +1,20 @@
+.experience__box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.experience__box--reverse{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .experience__box{
+        flex-direction: column;
+    }
+    .experience__box--reverse{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,23 @@
+.experience__info{
+    width: 44%;
+    margin-left: 1rem;
+}
+
+.experience__info--container{  
+    width: 44%;  
+    order: -1;
+    margin-right: 1rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    .experience__info{
+        margin-left: 0;
+        width: 100%;
+    }
+    .experience__info--container{
+        margin-right: 0;
+        width: 100%;
+        order: unset;
+    }
+}

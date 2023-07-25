@@ -1,0 +1,12 @@
+.experience{
+    padding: 0% 10.55%;
+    margin: 2rem 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    .experience{
+
+        padding: 0 2rem;
+    }
+}

@@ -1,0 +1,19 @@
+.title{
+    padding: 0 10.55%;
+    margin: 2rem 0;
+}
+
+@media screen and (max-width: 768px) {
+    .title{
+
+        padding: 0 2rem;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+    .title{
+        padding: 0 1rem;
+        margin: 1rem 0;
+    }
+}
