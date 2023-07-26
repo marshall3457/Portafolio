@@ -1,9 +1,16 @@
 .academic__courses{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .academic__courses__box{
-    width: 40%;
+    width: 50%;
+    margin-right: 0.5rem;
+
+}
+
+.academic__courses__box:last-child{
+    margin-left: 0.5rem;
+    margin-right: 0;
 }
 .academic__courses__item__img{
     display: flex;
@@ -13,6 +20,7 @@
     align-items: center;
     margin-bottom: 0.5rem;
 }
+
 
 .academic__courses__list{
     display: flex;
@@ -41,7 +49,7 @@
         width: 100px;
         height: 80px;
     }
-    
+
     .img-logoUniversidad{
         height: 130px;
     }
@@ -81,7 +89,7 @@
 
     }
     .img-logoUniversidad{
-        width: 84px;
+        width: 70px;
         height: 91px;
     }
 }

@@ -3,10 +3,14 @@
     background-color: var(--color-de-fondo-azul-cielo);
 }
 
+.formcontato--esquerda{
+    align-self: center;
+}
 
 @media screen and (max-width: 768px) {
     .formcontato{
 
         padding: 2rem 2rem;
     }
+
 }
