@@ -17,7 +17,7 @@
 @media screen and (max-width: 768px) {
     .hobbies__box{
         height: calc(118px - 2rem);
-        width: calc(((100vw / 3) - 4rem));
+        width: calc(((100% - 3rem) / 3) - 2rem);
         margin-right: 1rem;
         margin-bottom: 2rem;
     }
