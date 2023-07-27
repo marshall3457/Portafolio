@@ -3,7 +3,11 @@
     background-color: var(--color-de-fondo-azul-cielo);
 }
 
-
+@media screen and (max-width: 1280px) {
+    .academic{
+        padding: 5.125rem 5rem;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .academic{

@@ -14,6 +14,9 @@
     align-items: center;
 }
 
+.title__network__link__img{
+    margin-left: 0.25rem;
+}
 
 
 @media screen and (max-width: 768px) {
@@ -26,6 +29,7 @@
     }
 
 
+
 }
 @media screen and (max-width: 360px) {
     .title__network__item{
@@ -33,6 +37,10 @@
         font-size: 0.875rem;
         font-weight: bold;
     }
-
+    .title__network__link__img{
+        margin-left: 0;
+        width: 16px;
+        height: 16px;
+    }
 
 }

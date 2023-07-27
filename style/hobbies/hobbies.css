@@ -3,6 +3,11 @@
     margin-bottom: 5.5rem;
 }
 
+@media screen and (max-width: 1280px) {
+    .hobbies{
+        padding: 0 5rem;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .hobbies{

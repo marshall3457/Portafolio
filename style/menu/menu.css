@@ -6,6 +6,12 @@
     flex-wrap: wrap;
 }
 
+@media screen and (max-width: 1280px) {
+    .menu{
+        padding: 0 5rem;
+    }
+}
+
 @media screen and (max-width: 768px) {
     
     .menu{

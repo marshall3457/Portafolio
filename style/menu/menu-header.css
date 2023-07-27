@@ -4,3 +4,11 @@
     margin-bottom: 1rem;
 }
 
+
+@media screen and (max-width: 768px) {
+    .menu__header{
+        margin-bottom: 0;
+    }
+}
+
+

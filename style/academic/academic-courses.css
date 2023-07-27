@@ -77,10 +77,12 @@
 
     .academic__courses__box{
         width: 100%;
+        margin-right: 0;
     }
 
     .academic__courses__box:last-child{
         margin-top: 1rem;
+        margin-left: 0;
     }
 
     .img-logoAlura{
