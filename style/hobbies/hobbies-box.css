@@ -2,7 +2,7 @@
     background-color: var(--color-blanco-de-skills-hobbies);
     padding: 1rem;
     line-height: 1.75rem;
-    width: calc(((100% - 5rem) / 6) - 2rem);
+    width: calc(((100% - 5rem) / 4) - 2rem);
     display: flex;
     justify-content: flex-start;
     align-items: end;

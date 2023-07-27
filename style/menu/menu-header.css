@@ -1,5 +1,6 @@
 .menu__header{
     display: flex;
     align-items: center;
+    margin-bottom: 1rem;
 }
 

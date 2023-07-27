@@ -6,16 +6,33 @@
 .title__network__item{
     color: var(--color-de-letra);
     margin-right: 2rem;
+
+}
+
+.title__network__link{
+    display: flex;
+    align-items: center;
 }
 
 
+
+@media screen and (max-width: 768px) {
+    .title__network{
+        flex-wrap: wrap;
+    }
+    .title__network__item{
+        margin-bottom: 0.5rem;
+
+    }
+
+
+}
 @media screen and (max-width: 360px) {
     .title__network__item{
         margin-right: 0.5rem;
         font-size: 0.875rem;
         font-weight: bold;
     }
-
 
 
 }
