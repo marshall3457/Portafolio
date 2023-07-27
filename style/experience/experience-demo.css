@@ -13,3 +13,9 @@
         padding: 0.75rem 1rem;
     }
 }
+
+@media screen and (max-width: 360px) {
+    .experience__botao--demo{
+        margin-left: 0.825rem;
+    }
+}
