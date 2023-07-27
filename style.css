@@ -15,6 +15,8 @@ coloque nas sessões indicadas*/
    --color-boton-azul: #2A7AE4;
    --color-texto-input: #A2A2A2;
    --color-borde-bottom-input: #C8C8C8;
+   --warning-color: #df2525;
+
 }
 
 body {

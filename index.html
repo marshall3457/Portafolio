@@ -282,24 +282,30 @@
                         <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
                         <form class="formcontato__form" name="form">
                             <div class="input-container">
-
-                                <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre"/>
+                                
+                                <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre" required data-tipo="nombre" >
                                 <label class="input-label" for="nombre">Nombre</label>
-                            </div>
-                            <div class="input-container">
-                                <input class="formcontato__input" type="email" name="email" placeholder="E-mail"/>
-                                <label class="input-label" for="nombre">Email</label>
-
-                            </div>
-                            <div class="input-container">
-                                <input class="formcontato__input" type="text" name="asunto" placeholder="Asunto"/>
-                                <label class="input-label" for="nombre">Asunto</label>
+                                <span class="input-message-error">Este campo no es valido</span>
                                 
                             </div>
                             <div class="input-container">
+                                <input class="formcontato__input" type="email" name="email" placeholder="E-mail" required data-tipo="email" >
+                                <label class="input-label" for="nombre">Email</label>
+                                <span class="input-message-error">Este campo no es valido</span>
 
-                                <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
+                            </div>
+                            <div class="input-container">
+                                <input class="formcontato__input" type="text" name="asunto" placeholder="Asunto" required data-tipo="asunto" >
+                                <label class="input-label" for="nombre">Asunto</label>
+                                <span class="input-message-error">Este campo no es valido</span>
+                                
+                            </div>
+                            <div class="input-container">
+                                
+                                <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje" required></textarea>
                                 <label class="input-label" for="nombre">Mensaje</label>
+                                <span class="input-message-error">Este campo no es valido</span>
+
 
                             </div>
                             <button type="submit" class="formcontato__botao">Enviar mensaje</button>
@@ -317,6 +323,6 @@
             </section>
     </div>
  <!-- Script del documento JavaScript -->
-<script src="validacion.js"></script>
+ <script src="./app.js" type="module"></script>
 </body>
 </html>
