@@ -16,12 +16,12 @@ export function valida(input) {
 const tipoDeErrores = [
     "valueMissing",
     "typeMismatch",
-    "patternMismatch",
-    "customError"
+
 ];
 const mensajesDeError = {
     //objeto, tipos de input
     nombre: {
+
         valueMissing: "El campo nombre no puede estar vacio"
     },
     email: {
@@ -30,8 +30,12 @@ const mensajesDeError = {
         typeMismatch: "El correo no es valido"
     },
     asunto: {
+
         valueMissing: "El campo asunto no puede estar vacio",
-    },
+    },mensaje: {
+
+        valueMissing: "El campo mensaje no puede estar vacio",
+    }
 
 };
 
@@ -44,9 +48,6 @@ function mostrarMensajeDeError(tipoDeInput,input){
     let mensaje = "";
     tipoDeErrores.forEach( error => {
         if(input.validity[error]){
-            console.log(tipoDeInput, error);
-            console.log(input.validity[error]);
-            console.log(mensajesDeError[tipoDeInput][error])
             mensaje = mensajesDeError[tipoDeInput][error]
         }
     })

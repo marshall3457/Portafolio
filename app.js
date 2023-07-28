@@ -1,5 +1,5 @@
 import { valida } from "./validacion.js";
-const inputs = document.querySelectorAll("input");
+const inputs = document.querySelectorAll("input, textarea");
 
 inputs.forEach((input) => {
   input.addEventListener("blur", (input) => {

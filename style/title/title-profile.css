@@ -1,8 +1,8 @@
 .title__profile{
     width: 34%;
     max-width: 368px;
+    border-radius: 500px;
 }
-
 
 
 
@@ -16,8 +16,6 @@
 @media screen and (max-width: 360px) {
     .title__profile{
         order: -1;
-        width: 98px;
-        height: 98px;
         margin: 1rem 0;
     }
 }

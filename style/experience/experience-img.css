@@ -1,5 +1,7 @@
 .experience__img{
     width: 44%;
+    border: 2px solid var(--color-boton-azul);
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 768px) {
