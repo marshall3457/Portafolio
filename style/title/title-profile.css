@@ -9,7 +9,7 @@
 @media screen and (max-width: 768px) {
     .title__profile{
         max-width: 146px;
-        width: calc(100% - (68% - 2rem));
+        width: calc(100% - (68% - 1rem));
     }
 }
 
